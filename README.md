@@ -146,8 +146,16 @@ Work through the notebooks in order.
 1. Run and modify a working script.
 2. Transform the script into a reusable library.
 3. Improve the library using software engineering tools.
+4. Use the same habits when moving into more physical and data-driven modeling repositories.
 
 Each notebook builds on the work completed in the previous notebook.
+
+This repository still connects directly to the later course sequence:
+
+- it emphasizes notebook-to-script transitions,
+- it reinforces reusable function design,
+- it introduces linting and quality checks,
+- it prepares students for the more physical and data-driven repositories that follow.
 
 ## Optional Quick Start
 
@@ -156,13 +164,13 @@ An `environment.yml` file is included for a reproducible setup. The environment 
 If your local setup already works, using this environment is optional. Otherwise, create it with:
 
 ```bash
-conda env create -f environment.yml
+conda env create --prefix=./.envs --file environment.yml
 ```
 
 Activate it with:
 
 ```bash
-conda activate modeling-intro
+conda activate ./.envs
 ```
 
 If you need Ruff only, you can also install it directly:

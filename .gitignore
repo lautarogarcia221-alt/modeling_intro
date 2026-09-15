@@ -138,3 +138,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
+
+# Jupyter / Anaconda local scratch
+.virtual_documents/
+anaconda_projects/
